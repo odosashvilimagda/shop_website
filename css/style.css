@@ -1,0 +1,367 @@
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+body {
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+}
+.headernav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 50px 0px;
+}
+.burgmen {
+  display: none;
+}
+.headerlist ul {
+  display: flex;
+}
+.headerlist li {
+  margin-left: 75px;
+}
+.headerlist a {
+  color: #2a2a2a;
+  font-size: 13px;
+  text-transform: capitalize;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+}
+.headerlist a:hover {
+  color: #d3995f;
+}
+.main1 {
+  background-color: #f9f9f9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.main1full {
+  display: flex;
+  justify-content: space-between;
+}
+.main1left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+}
+.main1left h1 {
+  font-size: 50px;
+  font-family: "Montserrat", serif;
+  color: #d3995f;
+}
+.main1left p {
+  margin-top: 45px;
+  font-size: 15px;
+  color: #686868;
+  font-family: "Lora", serif;
+  text-wrap: wrap;
+}
+.main1left a {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #d3995f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2a2a2a;
+  font-family: Montserrat;
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-weight: 500;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+.main1left a:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+  background-color: #d3995f;
+  letter-spacing: 0px;
+}
+.main2full {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", serif;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+.main2full h2 {
+  color: #d3995f;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.main2cards {
+  display: flex;
+  padding-top: 40px;
+  cursor: pointer;
+  justify-content: center;
+  gap: 20px;
+}
+.main2cards .price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main2cards .price strong {
+  font-size: 15px;
+  font-family: Montserrat;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.main2cards .price span {
+  font-size: 15px;
+  color: #d3995f;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.main2carditem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #eeeeec;
+  width: 275px;
+  height: 320px;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.main2carditem:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+  background-color: #d3995f;
+  letter-spacing: 0px;
+}
+.cardimgbg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main3 {
+  background-color: #f9f9f9;
+  height: 100%;
+  padding-top: 70px;
+  width: 100%;
+  padding-bottom: 70px;
+}
+.main3text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.main3text h1 {
+  font-size: 50px;
+  font-family: "Montserrat", serif;
+  color: #d3995f;
+}
+.main3text p {
+  margin-top: 45px;
+  font-size: 15px;
+  color: #686868;
+  font-family: "Lora", serif;
+  text-wrap: wrap;
+}
+.main3cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.m3carditem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.carditemtext {
+  display: flex;
+  justify-content: space-between;
+}
+.carditemtext strong {
+  color: #2a2a2a;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.carditemtext span {
+  color: #d3995f;
+  margin-top: 10px;
+}
+.main4 {
+  max-width: 100%;
+  display: flex;
+}
+.story {
+  display: flex;
+  align-items: center;
+}
+.story img {
+  margin-right: 130px;
+}
+.story .story-info h3 {
+  font-size: 25px;
+  color: #2a2a2a;
+  font-family: Montserrat;
+  margin-bottom: 30px;
+}
+.story .story-info p {
+  font-size: 15px;
+  font-family: Lora;
+  width: 443px;
+  color: #686868;
+  margin-bottom: 80px;
+  line-height: 30px;
+}
+.story .story-info a {
+  width: 170px;
+  height: 50px;
+  border: 1px solid #d3995f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2a2a2a;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+.button-motion {
+  transition: all 0.3s ease;
+}
+.button-motion:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+  background-color: #d3995f;
+  letter-spacing: 0px;
+}
+.main5 {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+.main5full {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+.main5full span {
+  color: #d3995f;
+}
+.main5cards {
+  cursor: pointer;
+}
+@media (max-width: 1400px) {
+  .story {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .story img {
+    margin-right: unset;
+  }
+  .story .story-info {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .story .story-info p {
+    width: 95%;
+  }
+  .story .story-info h3 {
+    margin-top: 50px;
+  }
+  .story .story-info a {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .main2cards {
+    flex-wrap: wrap;
+  }
+  .main2carditem {
+    width: 100%;
+  }
+  .card-list {
+    flex-basis: 45%;
+  }
+  .m3carditem {
+    flex-basis: 32%;
+  }
+  .main3cards {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+  }
+  .main1full {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .main1full .main1left {
+    text-align: center;
+    align-items: center;
+  }
+  .main3 {
+    height: 100%;
+    padding-bottom: 100px;
+  }
+  .headerlist {
+    display: none;
+  }
+  .burgmen {
+    display: block;
+  }
+  .headernav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1076px) {
+  .story img {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .card-list {
+    flex-basis: 45%;
+  }
+}
+@media (max-width: 586px) {
+  .main2carditem {
+    width: 275px;
+  }
+}
+@media (max-width: 576px) {
+  .main1full {
+    width: 100%;
+  }
+  .main1full {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .main1left {
+    width: 100%;
+  }
+  .main1right img {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .main2carditem {
+    flex-basis: 90%;
+  }
+}
+@media (max-width: 546px) {
+  .main3cards {
+    justify-content: center;
+  }
+}
